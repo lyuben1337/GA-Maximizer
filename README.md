@@ -25,13 +25,15 @@
    ```bash
    python __main__.py
    ```
-2. Follow the on-screen instructions to select functions, configure parameters, and run the GA.  
+2. Follow the on-screen instructions to select functions, configure parameters, and run the GA.
+
+<div align="center"> <img width="300" alt="image" src="https://github.com/user-attachments/assets/4f9a51ef-2a05-4e3b-9ed1-57c828d8dc48"> </div>
+
 3. View and save the results.
 
 ## Notes  
 - Results are saved in the `results/` folder.  
-- Results are saved in the results/ folder.
-- To add or modify functions, update the following section in the code (__main__.py):
+- To add or modify functions, update the following section in the code (utils/app.py):
 ```python
 self.functions = [
     Function("3*x1 - 2*x2 + 1*x3 - 4*x4 + 9*x5"),
