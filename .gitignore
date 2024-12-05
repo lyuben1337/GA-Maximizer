@@ -1,0 +1,62 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PyCharm specific files
+.idea/
+*.iml
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Python test output
+*.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled files
+*.o
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Environment and package manager files
+Pipfile
+Pipfile.lock
+poetry.lock
+.env
+
+# Results and data files
+results/
+*.txt
+*.csv
+*.tsv
+*.json
+*.xlsx
